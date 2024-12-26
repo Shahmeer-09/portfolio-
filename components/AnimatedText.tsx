@@ -43,7 +43,7 @@ export const VelocityText = () => {
       <div className="sticky top-0 flex flex-col h-screen items-center overflow-hidden">
         <div className=" h-[60%] flex  justify-center items-end  ">
           <div className="  flex flex-col items-center mb-[30px] ">
-            <div className="  h-[200px] ">
+            <div className="  h-[230px] sm:h-[200px] ">
               <Image
                 alt="image batman"
                 src={"/dark.png"}

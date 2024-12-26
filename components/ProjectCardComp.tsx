@@ -15,7 +15,7 @@ export interface projectprop {
 }
 const ProjectCardComp = ({ project }: { project: projectprop }) => {
   return (
-    <div className="card  md:h-[220px]  h-[400px] pb-2  border-b-2 ">
+    <div className="card  md:h-[220px]  h-[400px] pb-2  border-b-2bo  shadow-md shadow-current   ">
       <div className=" wrapper flex  md:flex-row flex-col  h-full  gap-2 ">
         <Dialogproject project={project}>
           <div
