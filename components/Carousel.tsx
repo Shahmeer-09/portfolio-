@@ -16,7 +16,7 @@ export function CarouselProject({ images }: { images: string[] }) {
       <CarouselContent className="  ">
         {Array.from({ length: images.length }).map((_, index) => (
           <CarouselItem key={index}>
-            <div className=" h-[45vh]  w-[100%] bg-yellow-50 relative  rounded-md  ">
+            <div className=" h-[40vh] md:h-[45vh]  w-[100%] bg-yellow-50 relative  rounded-md  ">
               <Image
                 alt="caroucel image"
                 src={images[index]}
